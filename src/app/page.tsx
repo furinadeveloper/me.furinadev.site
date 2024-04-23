@@ -1,9 +1,9 @@
-import Main from "./Main";
+import Text from "./Text";
 
 export default function Home() {
   return (
-    <div id="homepage" className="px-16">
-      <Main/>
+    <div id="homepage" className="px-16 flex">
+      <Text/>
     </div>
   );
 }
